@@ -1,0 +1,4 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+button { padding: 8px 12px; border-radius: 8px; cursor: pointer; }
