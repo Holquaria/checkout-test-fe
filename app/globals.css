@@ -1,4 +1,5 @@
-:root { color-scheme: light dark; }
+  :root { color-scheme: light dark; }
 * { box-sizing: border-box; }
 body { margin: 0; padding: 0; }
 button { padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+table th, table td { padding: 6px 8px; border-bottom: 1px solid rgba(0,0,0,0.1); }
