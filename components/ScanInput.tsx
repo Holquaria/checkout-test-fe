@@ -18,8 +18,8 @@ export default function ScanInput({ validSkus, onScan }: Props) {
         onScan(key)
       }
     }
-    window.addEventListener('keypress', handler)
-    return () => window.removeEventListener('keypress', handler)
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
   }, [validSkus, onScan])
 
   return null
